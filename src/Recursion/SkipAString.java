@@ -2,6 +2,21 @@ package Recursion;
 
 public class SkipAString {
     public static void main(String[] args) {
+
+        String s="tousifIqbal";
+        System.out.println("testing the subsrting index"+s.substring(11,s.length()));
+
+        String res="";
+        for (int i=0;i<s.length();i++){
+
+            if (s.substring(i,i+3).equals("sif")) {
+                res = s.substring(0, i) + s.substring(i + 3, s.length());
+                break;
+            }
+        }
+        System.out.println(res);
+
+
         System.out.println(skipAString("tousifiqbalbiswas","was"));
     }
     private static String skipAString(String s,String tar) {

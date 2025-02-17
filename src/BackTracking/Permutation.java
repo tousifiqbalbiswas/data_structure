@@ -9,8 +9,11 @@ public class Permutation {
         String s="123";
         Integer i= Integer.parseInt(s);
 
+
         find("123"," ");
     }
+
+
 
     private static ArrayList<Integer> find(String up,String p) {
 

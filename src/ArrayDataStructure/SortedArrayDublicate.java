@@ -11,6 +11,7 @@ public class SortedArrayDublicate {
         Integer[]arrr={1,2,3,2};
         List<Integer> list=Arrays.asList(arrr);
         Collections.sort(list);
+        fff(9);
         int count = 0;
 
 
@@ -29,6 +30,16 @@ public class SortedArrayDublicate {
         System.out.println(cc);
         IntStream intStream = Arrays.stream(arr).filter(e -> e > 10);
         System.out.println(removeDuplicates(arr));
+        fff(8);
+        System.out.println("j");
+
+    }
+
+    private static void fff(int n) {
+        System.out.println(n);
+        int u=5;
+        int ou=u+n;
+        System.out.println(ou);
 
     }
 }
